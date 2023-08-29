@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>My Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Css Link-->
+    <link rel = "stylesheet" href = "style.css"/>
+    <link rel = "stylesheet" href = "mediaquires.css"/>
+  </head>
+  <body>
+    <nav id = "desktop-nav">
+        <div class = "logo">
+          <img class = "logo-image" src="/assets/brand logo.png" alt="brand-logo">
+        </div>
+        <div>
+           <ul class = "nav-links">
+            <li><a href = "#about">About</a></li>
+            <li><a href = "#experience">Experience</a></li>
+            <li><a href = "#projects">Projects</a></li>
+            <li><a href = "#contact">contact</a></li>
+           </ul>
+        </div>
+    </nav>
+
+    <nav id = "hamburger-nav">
+      <div class = "logo">
+        <img class = "logo-image" src="/assets/brand logo.png" alt="brand-logo">
+      </div>
+      <div class = "hamburger-menu">
+         <div class  = "hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <div class = "menu-links">
+          <li><a href = "#about" onclick="toggleMenu()">About</a></li>
+          <li><a href = "#experience" onclick = "toggleMenu()">Experience</a></li>
+          <li><a href = "#projects" onclick = "toggleMenu()">Projects</a></li>
+          <li><a href = "#contact" onclick = "toggleMenu()">contact</a></li>
+         </div>
+      </div>
+    </nav>
+    <section id = "profile">
+       <div class = "section_pic-container">
+         <img src = "/assets/profile avatar.svg" alt = "Azar-profile-pix"/>
+       </div>
+       <div class = "section_text"> 
+          <p class = "section_text_p1">Hello, I'm</p>
+          <h1 class = "title">Azar</h1>
+          <p class = "section_text_p2">Frontend Developer</p>
+          <div class = "btn-container">
+            <button class = "btn btn-color-2" onclick = "window.open('./assets/Mohammad Azaruddin Shaik.pdf')">Download CV</button>
+            <button class = "btn btn-color-1" onclick = "location.href='./#contact'">Say Hello</button>
+          </div>
+          <div id = "socail-container">
+             <img src = "/assets/linkedin.png" alt = "My linkedin Profile"
+             class = "icon" onclick="location.href = 'https://www.linkedin.com/in/mdazaruddin/'"/>
+          
+            <img src = "/assets/github.png" alt = "My github Profile"
+            class = "icon" onclick="location.href = 'https://github.com/'"/>
+         </div>
+
+       </div>
+            
+    </section>
+
+    <section id = "about">
+        <h1 class = "title">About Me</h1>
+        <p class = "section_text_p1 mt-3">I design and code beautifully simple things, and I love what I do.</p>
+        <div class = "section-container">
+           <div class = "section_pic-container">
+               <img src = "/assets/About me Profile.png" alt = "Profile-pic"
+               class = "about-pic"/>
+           </div>
+           <div class = "about-details-container">
+              <div class = "about-containers">
+                  <div class = "details-container">
+                      <img src = "assets/experience.png" alt = "experience"
+                      class = "icon"
+                      />
+                      <h3>Experience</h>
+                      <p>Creative Frontend Developer</p>  
+                  </div>
+                  <div class = "details-container">
+                    <img src = "assets/education.png" alt = "education"
+                    class = "icon"
+                    />
+                    <h3>Education</h>
+                    <p>B.A Bachelors Degree</p>  
+                  </div>
+              </div>
+              <div class = "text-container">
+                <p style = "font-size: 22px;">Hello! I'm Azar, a frontend developer with a passion for crafting engaging and user-friendly web experiences.I thrive on turning creative ideas into tangible digital solutions. 
+                  With a background in both design and development, I bring a unique blend of skills to every project.
+                  I'm constantly exploring emerging trends, attending workshops, and experimenting with new tools to stay at the forefront of the frontend development field.
+                  Let's build the web of tomorrow together!Remember to personalize the template with your own information, experiences, and perspectives to make it truly reflect who you are as a frontend developer.
+                </p>
+              </div>
+           </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon"
+        class = "icon-arrow" 
+        onclick="location.href='./#experience'"/>
+    </section>
+
+    <section id = "experience">
+      <p class = "section_text_p1">Explore My</p>
+      <h1 class = "title">Experience</h1>
+      <div class = "experience-details-container">
+        <div class = "about-containers">
+            <div class = "details-container">
+               <h2 class = "experience-sub-title">
+                Frontend Development
+               </h2>
+               <div class = "article-container">
+                  <article>
+                     <img src = "/assets/checkmark.png" 
+                     alt = "Experience-icon" class = "icon"/>
+                     <div>
+                      <h3>HTML</h3>
+                      <p>Intermediate</p>
+                     </div>
+                  </article>
+
+                  <article>
+                    <img src = "/assets/checkmark.png" 
+                    alt = "Experience-icon" class = "icon"/>
+                    <div>
+                     <h3>CSS</h3>
+                     <p>Intermediate</p>
+                    </div>
+                 </article>
+
+                 <article>
+                  <img src = "/assets/checkmark.png" 
+                  alt = "Experience-icon" class = "icon"/>
+                  <div>
+                   <h3>JavaScript</h3>
+                   <p>Beginner</p>
+                  </div>
+               </article>
+
+               <article>
+                <img src = "/assets/checkmark.png" 
+                alt = "Experience-icon" class = "icon"/>
+                <div>
+                 <h3>BootStrap</h3>
+                 <p>Intermediate</p>
+                </div>
+             </article>
+
+             <article>
+              <img src = "/assets/checkmark.png" 
+              alt = "Experience-icon" class = "icon"/>
+              <div>
+               <h3>Canva</h3>
+               <p>Intermediate</p>
+              </div>
+           </article>
+
+               </div>
+            </div>
+
+            <div class = "details-container">
+              <h2 class = "experience-sub-title">
+               Backend Development
+              </h2>
+              <div class = "article-container">
+                 <article>
+                    <img src = "/assets/checkmark.png" 
+                    alt = "Experience-icon" class = "icon"/>
+                    <div>
+                     <h3>SQ Lite</h3>
+                     <p>Intermediate</p>
+                    </div>
+                 </article>
+
+                 <article>
+                   <img src = "/assets/checkmark.png" 
+                   alt = "Experience-icon" class = "icon"/>
+                   <div>
+                    <h3>Python</h3>
+                    <p>Intermediate</p>
+                   </div>
+                </article>
+
+                <article>
+                  <img src = "/assets/checkmark.png" 
+                  alt = "Experience-icon" class = "icon"/>
+                  <div>
+                   <h3>GIT Hub</h3>
+                   <p>Begginer</p>
+                  </div>
+               </article>
+              </div>
+           </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon"
+        class = "icon-arrow" 
+        onclick="location.href='./#projects'"/>
+    </section>
+
+    <section id = "projects">
+      <h1 class = "title">Projects</h1>
+      <p class = "section_text_p1">
+        Here are a few past design projects I've worked on. Want to see more?
+        <a href = "mailto:siddiq03912@gmail.com">Email me.</a>.
+      </p>
+      <div class = "experience-details-container">
+        <div class = "about-containers">
+         <div class = "details-container color-container">
+           <div class = "article-container">
+               <img src="/assets/Image-hunt.png" alt="project-1"
+               class = "project-img">
+           </div>
+               <h2 class = "experience-sub-title">Image Hunt</h2>
+               <div class = "btn-container">
+                  <button class = "btn btn-color-2 project-btn" 
+                  onclick="location.href = 'https://github.com/'">
+                    Github
+                  </button>
+                  
+                  <button class = "btn btn-color-2 project-btn" 
+                  onclick="location.href = 'https://imagehunt.ccbp.tech/'">
+                    Live Demo
+                  </button>
+               </div>
+        </div>
+
+        <div class = "details-container color-container">
+          <div class = "article-container">
+              <img src="/assets/Food-Munch.png" alt="project-2"
+              class = "project-img">
+          </div>
+              <h2 class = "experience-sub-title">Food Munch</h2>
+              <div class = "btn-container">
+                 <button class = "btn btn-color-2 project-btn" 
+                 onclick="location.href = 'https://github.com/'">
+                   Github
+                 </button>
+                 
+                 <button class = "btn btn-color-2 project-btn" 
+                 onclick="location.href = 'https://foodrpw.ccbp.tech/'">
+                   Live Demo
+                 </button>
+              </div>
+  
+       </div>
+
+
+       <div class = "details-container color-container">
+        <div class = "article-container">
+            <img src="/assets/QR Code Gen.png" alt="project-3"
+            class = "project-img">
+        </div>
+            <h2 class = "experience-sub-title">QR Generator</h2>
+            <div class = "btn-container">
+               <button class = "btn btn-color-2 project-btn" 
+               onclick="location.href = 'https://github.com/'">
+                 Github
+               </button>
+               
+               <button class = "btn btn-color-2 project-btn" 
+               onclick="location.href = 'https://qrgen.ccbp.tech/'">
+                 Live Demo
+               </button>
+            </div>
+
+      </div>
+     </div>
+    </div>
+      <img src="./assets/arrow.png" alt="Arrow icon"
+        class = "icon-arrow" 
+        onclick="location.href='./#projects'"/>
+    </section>
+
+    <section id = "contact">
+       <p class = "section_text_p1">
+           Get in Touch
+       </p>
+       <h1 class = "title">Contact Me</h1>
+       <div class = "contact-info-upper-container">
+           <div class = "contact-info-container">
+                <img src="/assets/email.png" alt="email"
+                class = "icon contact-icon email-icon">
+                <p><a href = "mailto:siddiq03912@gmail.com">siddiq03912@gmail.com</a></p>
+           </div>
+           <div class = "contact-info-container">
+             <img src="/assets/linkedin.png" alt="linkedin-icon"
+             class = "icon contact-icon">
+             <p><a href = "https://www.linkedin.com/in/mdazaruddin/">LinkedIn</a></p>
+           </div>
+      </div>
+    </section>
+
+    <footer>
+       <nav>
+          <div class = "nav-links-container">
+            <ul class = "nav-links">
+              <li><a href = "#about">About</a></li>
+              <li><a href = "#experience">Experience</a></li>
+              <li><a href = "#projects">Projects</a></li>
+              <li><a href = "#contact">contact</a></li>
+             </ul>
+          </div>
+       </nav>
+       <p>Copyright &#169; 2023 Azar. All Rights Reserved</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <script src = "script.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
