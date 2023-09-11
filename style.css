@@ -176,6 +176,11 @@ section{
     height:400px;
     width: 400px;
     margin-top:50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.section_pic-container:hover{
+    transform: translateY(-10px);
 }
 
 
@@ -277,7 +282,7 @@ section{
 
 .about-containers{
     gap: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     margin-top: 2rem;
 }
 
@@ -381,10 +386,6 @@ article .icon{
     height:90%
 }
 
-project-title{
-    margin:1rem;
-    border-color:black
-}
 
 .project-btn{
     color: #1b1b1b;
