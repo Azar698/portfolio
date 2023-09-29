@@ -177,6 +177,7 @@ section{
     width: 400px;
     margin-top:50px;
     transition: transform 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .section_pic-container:hover{
